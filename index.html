@@ -10,30 +10,23 @@
 <body>
     <div class="container">
         <header>
-            <img src="./img/logoAprovado.png" >
-            <h1>Calculadoras de Notas</h1>
+            <img src="./img/chamada-telefonica.png" >
+            <h1>Lista telefônica</h1>
         </header>
         <form id = "formAtividade">
-            <input type="text" id="nomeAtividade"required placeholder="Matéria">
-            <input type="number" id="notaAtividade"required placeholder="Nota" min="0" max="10">
+            <input type="text" id="nomeAtividade"required placeholder="Nome">
+            <input type="tel" id="notaAtividade"required placeholder="Telefone" >
             <button type="submit">Adicionar</button>
         </form>
         <table>
             <thead>
                 <tr>
-                    <th>Matéria</th>
-                    <th>Nota</th>
-                    <th>Resultado</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
                 </tr>
             </thead>
             <tbody>
             </tbody>
-            <tfoot>
-                <td>Média Final</td>
-                <td id="media-final-valor"></td>
-                <td id="media-final-resposta"></td>
-                <!-- <td><img src="./img/approved.png" alt="aprovado" height="50" width="50"></td> -->
-            </tfoot>
         </table>
     </div>
     <script src="./main.js"></script>

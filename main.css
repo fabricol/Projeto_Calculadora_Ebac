@@ -39,6 +39,7 @@ form button {
 
 .container {
     border: 5px solid black;
+    background-color: #F1ED7F;
     width: 600px;
     max-width: 100%;
     align-content: space-between
@@ -69,9 +70,5 @@ table td{
 }
 
 tbody {
-    text-align: center;
-}
-
-tfoot {
     text-align: center;
 }
