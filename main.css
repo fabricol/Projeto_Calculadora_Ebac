@@ -1,0 +1,77 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: solid black;
+}
+
+header img {
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    margin-left: 94px;
+}
+
+form input{
+    font-size: 15px;
+    padding: 3px;
+    width: 150px;
+}
+
+form button {
+    background-color: blue;
+    font-size: 15px;
+    padding: 3px;
+    width: 150px;
+}
+
+.container {
+    border: 5px solid black;
+    width: 600px;
+    max-width: 100%;
+    align-content: space-between
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px; /* ajuste o valor conforme necessário */
+    /* margin: 0 auto; Adiciona margem automática para centralizar a tabela horizontalmente */
+    width: 630px;
+    max-width: 100%;
+}
+
+table th{
+    align-content: space-between;
+    border-bottom: 1px solid;
+    /* padding: 10px; */
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+table td{
+
+    align-items: center;
+    justify-content: center;
+}
+
+tbody {
+    text-align: center;
+}
+
+tfoot {
+    text-align: center;
+}
